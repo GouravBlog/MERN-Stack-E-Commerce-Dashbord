@@ -1,0 +1,134 @@
+.signup {
+    margin: 0px 30%;
+    margin-top: 5%;
+}
+
+.signup h2 {
+    margin-left: 16%;
+    color: blue;
+}
+
+form input,
+button {
+    display: block;
+    width: 50%;
+    margin: 10px;
+    margin-bottom: 15px;
+    padding: 5px;
+    font-weight: bold;
+    border: 1px solid blue;
+    cursor: pointer;
+}
+
+form button {
+    width: 52%;
+    margin-top: 20px;
+    padding: 6px;
+    background-color: blue;
+    border: 0.5px solid rgb(9, 9, 208);
+    color: white;
+    border-radius: 2px;
+    /* box-shadow: 2px 2px 2px 2px green; */
+}
+
+@media only screen and  (max-width:350px) and (min-width:200px) {
+    .signup {
+        margin: 0px 1%;
+        margin-top: 20%;
+        margin-left: 10%;
+    }
+
+    form input,
+    button {
+        padding: 8px 15px;
+        width: 85%; 
+    }
+
+    form button{
+        width: 83%;
+    }
+
+}
+
+@media only screen and  (max-width:500px) and (min-width:350px) {
+    .signup {
+        margin: 0px 1%;
+        margin-top: 20%;
+        margin-left: 10%;
+    }
+
+    form input,
+    button {
+        padding: 8px 15px;
+        width: 70%; 
+    }
+
+    form button{
+        width: 70%;
+    }
+
+}
+
+@media only screen and  (max-width:800px) and (min-width:500px) {
+    .signup {
+        margin: 0px 1%;
+        margin-top: 8%;
+        margin-left: 10%;
+    }
+
+    form input,
+    button {
+        padding: 8px 15px;
+        width: 70%; 
+        font-size: 15px;
+    }
+
+    form button{
+        width: 70%;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+}
+
+@media only screen and  (max-width:1200px) and (min-width:800px) {
+    .signup {
+        margin: 0px 1%;
+        margin-top: 8%;
+        margin-left: 10%;
+    }
+
+    form input,
+    button {
+        padding: 8px 15px;
+        width: 70%; 
+        font-size: 15px;
+    }
+
+    form button{
+        width: 70%;
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and  (max-width:1350px) and (min-width:1200px) {
+    .signup {
+        margin: 0px 1%;
+        margin-top: 8%;
+        margin-left: 10%;
+    }
+
+    form input,
+    button {
+        padding: 8px 15px;
+        width: 60%; 
+        font-size: 18px;
+    }
+
+    form button{
+        width: 60%;
+        font-size: 18px;
+    }
+
+}

@@ -1,0 +1,40 @@
+footer{
+    position: absolute; 
+    bottom: 0%;
+    background-color:blue;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 6px 0px;
+    font-weight: bold;
+}
+
+@media only screen and  (max-width:350px) and (min-width:200px){
+    footer{
+        font-size: 11px;
+    }
+}
+
+@media only screen and  (max-width:500px) and (min-width:350px){
+    footer{
+        font-size: 14px;
+    }
+}
+
+@media only screen and  (max-width:800px) and (min-width:500px){
+    footer{
+        font-size: 17px;
+    }
+}
+
+@media only screen and  (max-width:1200px) and (min-width:800px){
+    footer{
+        font-size: 17px;
+    }
+}
+
+@media only screen and  (max-width:1350px) and (min-width:1200px){
+    footer{
+        font-size: 17px;
+    }
+}
